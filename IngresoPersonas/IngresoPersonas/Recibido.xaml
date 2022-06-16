@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IngresoPersonas.Recibido">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="lightBlue" Opacity="0.7" Padding="15" CornerRadius="0">
+                <Label Text="{Binding nombre}" TextColor="Black" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbnombre"/>
+           </Frame>
+
+            <Frame BackgroundColor="lightBlue" Opacity="0.7" Padding="15" CornerRadius="0">
+                <Label Text="{Binding apellido}" TextColor="Black" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbapellido"/>
+            </Frame>
+
+            <Frame BackgroundColor="lightBlue" Opacity="0.7" Padding="15" CornerRadius="0">
+                <Label Text="{Binding edad}" TextColor="Black" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbedad"/>
+            </Frame>
+
+
+            <Frame BackgroundColor="lightBlue" Opacity="0.9" Padding="15" CornerRadius="0">
+            <Label Text="{Binding correo}" TextColor="Black" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" x:Name="lbcorreo"/>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
