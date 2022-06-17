@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="IngresoPersonas.MainPage">
+             x:Class="IngresoPersonas.MainPage"
+             BackgroundImageSource="fon.jpg">
 
     <StackLayout >
         <Frame BackgroundColor="lightBlue" Padding="5" CornerRadius="0">
@@ -15,8 +16,8 @@
         <Label Text="Apellidos" FontSize="Medium" TextColor="Black" Padding="30,0,30,0"/>
         <Entry Placeholder="Apellidos" Keyboard="Text" x:Name="txtapellidos" Text="{Binding apellido}" Margin="15,0,15,0"/>
 
-        <Label Text="Edad" FontSize="Medium" TextColor="Black" Padding="30,0,30,0"  x:Name="txtedad"/>
-        <Entry Placeholder="Edad"  Text="{Binding edad}" Margin="15,0,15,0" />
+        <Label Text="Edad" FontSize="Medium" TextColor="Black" Padding="30,0,30,0" />
+        <Entry Placeholder="Edad" Keyboard="Numeric" Text="{Binding edad}" x:Name="txtedad" Margin="15,0,15,0" />
 
         <Label Text="Correo Electrónico" FontSize="Medium" TextColor="Black" Padding="30,0,30,0"/>
         <Entry Placeholder="Correo Electronico" Keyboard="Text" x:Name="txtcorreo" Text="{Binding correo}" Margin="15,0,15,0"/>
