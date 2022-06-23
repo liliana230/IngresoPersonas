@@ -7,13 +7,15 @@
             <StackLayout Background="white"
             Margin="0,35,10,0">
                 <Image Source="person.jpg"
-                   HeightRequest="500"
+                   HeightRequest="450"
                    WidthRequest="380"
                    HorizontalOptions="CenterAndExpand"
                    Aspect="Fill"/>
             </StackLayout>
             <Button  x:Name="btningreso" Text="Ingresar Información" FontSize="Subtitle" Clicked="btningreso_Clicked" 
                      TextColor="Black" BackgroundColor="Tomato" Margin="60,0,60,0"/>
+
+            <Label Text="Liliana Hernandez y Delbert Lira" TextColor="Black" HorizontalOptions="Center"> </Label>
         </StackLayout>
         
     </ContentPage.Content>

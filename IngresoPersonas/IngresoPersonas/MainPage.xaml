@@ -20,7 +20,7 @@
         <Entry Placeholder="Edad" Keyboard="Numeric" Text="{Binding edad}" x:Name="txtedad" Margin="15,0,15,0" />
 
         <Label Text="Correo Electrónico" FontSize="Medium" TextColor="Black" Padding="30,0,30,0"/>
-        <Entry Placeholder="Correo Electronico" Keyboard="Text" x:Name="txtcorreo" Text="{Binding correo}" Margin="15,0,15,0"/>
+        <Entry Placeholder="Correo Electronico" Keyboard="Email" x:Name="txtcorreo" Text="{Binding correo}" Margin="15,0,15,0"/>
 
 
 
